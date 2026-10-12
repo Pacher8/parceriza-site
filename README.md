@@ -33,4 +33,4 @@ Integrar um endpoint autenticado para cadastro real, definir responsáveis por a
 Conferência visual em Chromium, desktop e celular. Verificações funcionais aprovadas: imagens carregadas, âncoras existentes, abas por clique e teclado, preparação dos dois tipos de solicitação, OAB no corpo da mensagem, entrada tratada como texto, limpeza de mensagens desatualizadas, rejeição de nomes em branco, menu móvel e ausência de rolagem horizontal em 375, 390, 768 e 1440 pixels. Nenhum e-mail foi enviado nos testes.
 
 ## Publicação
-Esta revisão preserva o domínio e a hospedagem existentes. Publicar os arquivos na raiz da branch configurada no GitHub Pages. Na preparação desta entrega, a conexão GitHub recusou a gravação com erro 403; portanto o site público ainda não recebeu esta revisão.
+Esta revisão preserva o domínio e a hospedagem existentes. Publicar os arquivos na raiz da branch configurada no GitHub Pages. Após o envio, conferir o resultado do deployment e o domínio parceriza.com.br.
