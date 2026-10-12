@@ -1,131 +1,205 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Parceriza — ecossistema Preddita</title>
-<meta name="description" content="Tributar.IA: diagnóstico do passivo fiscal a partir de dados públicos e dos dados do próprio contribuinte. Um produto do ecossistema Preddita.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
-<style>
-  :root{
-    --ink:#15211d; --ink-2:#43544d; --ink-3:#71807a;
-    --paper:#f6f8f6; --card:#ffffff; --line:#dfe6e2;
-    --verde:#0d5c48; --verde-esc:#0a4a3a; --verde-soft:#e3efea;
-    --ambar:#8a6d1f;
-  }
-  *{box-sizing:border-box;margin:0}
-  html{scroll-behavior:smooth}
-  body{
-    background:var(--paper); color:var(--ink);
-    font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
-    -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
-  header{padding:28px 0}
-  .marca{display:flex;align-items:baseline;gap:10px}
-  .marca b{font-family:Fraunces,Georgia,serif;font-size:22px;font-weight:600;letter-spacing:-.01em}
-  .marca span{font-size:12.5px;color:var(--ink-3);letter-spacing:.04em;text-transform:uppercase}
-  .hero{padding:56px 0 40px}
-  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--verde)}
-  h1{
-    font-family:Fraunces,Georgia,serif;font-weight:600;
-    font-size:clamp(30px,5vw,46px);line-height:1.12;letter-spacing:-.015em;
-    max-width:19ch;margin:14px 0 0;text-wrap:balance;
-  }
-  h1 .num{color:var(--verde)}
-  .hero p.sub{max-width:62ch;margin:20px 0 0;font-size:17px;color:var(--ink-2)}
-  .cta-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:30px}
-  .cta{
-    display:inline-block;background:var(--verde);color:#fff;text-decoration:none;
-    font-weight:600;font-size:15.5px;padding:13px 26px;border-radius:8px;
-    transition:background .15s ease;
-  }
-  .cta:hover{background:var(--verde-esc)}
-  .cta:focus-visible{outline:3px solid var(--verde-soft);outline-offset:2px}
-  .cta-note{font-size:13px;color:var(--ink-3)}
-  .stats{
-    display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
-    gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;
-    overflow:hidden;margin:46px 0 0;
-  }
-  .stat{background:var(--card);padding:20px 22px}
-  .stat b{display:block;font-family:Fraunces,Georgia,serif;font-size:27px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink)}
-  .stat span{font-size:12.5px;color:var(--ink-3);line-height:1.45;display:block;margin-top:4px}
-  section.oque{padding:52px 0 8px}
-  h2{font-family:Fraunces,Georgia,serif;font-size:24px;font-weight:600;letter-spacing:-.01em}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:22px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
-  .card h3{font-size:15.5px;font-weight:700;margin-bottom:8px}
-  .card h3::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--verde);margin-right:9px}
-  .card p{font-size:14px;color:var(--ink-2)}
-  .aviso{
-    margin:44px 0 0;padding:16px 20px;border-left:3px solid var(--ambar);
-    background:#fbf7ec;border-radius:0 10px 10px 0;font-size:13.5px;color:#5d5233;max-width:78ch;
-  }
-  footer{margin-top:64px;border-top:1px solid var(--line);padding:26px 0 40px;
-    display:flex;flex-wrap:wrap;gap:10px 24px;align-items:baseline;justify-content:space-between}
-  footer .f-marca{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:16px}
-  footer p{font-size:12.5px;color:var(--ink-3)}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#103247">
+  <title>Parceriza — boas conexões, novas possibilidades</title>
+  <meta name="description" content="Pessoas, tecnologia e soluções para o universo jurídico. Conheça o Tributar.IA, apresente sua solução e participe da construção da rede Parceriza.">
+  <meta property="og:title" content="Parceriza — boas conexões, novas possibilidades">
+  <meta property="og:description" content="Uma nova forma de aproximar advocacia, tecnologia e soluções. Conheça a nossa turma.">
+  <meta property="og:image" content="https://parceriza.com.br/assets/parceriza-turma.png">
+  <meta property="og:url" content="https://parceriza.com.br/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://parceriza.com.br/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="marca"><b>Parceriza</b><span>ecossistema Preddita</span></div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="eyebrow">Tributar.IA — inteligência sobre o passivo fiscal</div>
-      <h1>A dívida ativa da União soma <span class="num">R$&nbsp;6,83&nbsp;trilhões</span>. O que o seu passivo realmente significa?</h1>
-      <p class="sub">
-        O Tributar.IA organiza a base pública da PGFN e os dados do próprio contribuinte em um
-        diagnóstico executivo claro: identifica o passivo, mapeia a situação de cada inscrição e
-        aponta o que merece atenção — inclusive débitos antigos cuja cobrança pede verificação.
-        Cada hipótese exige confirmação caso a caso, por profissional habilitado.
-      </p>
-      <div class="cta-row">
-        <a class="cta" href="https://tributaria.parceriza.com.br">Acessar o Tributar.IA →</a>
-        <span class="cta-note">Plataforma em operação, com dados oficiais RFB · PGFN.</span>
-      </div>
-
-      <div class="stats" aria-label="Números da base pública analisada">
-        <div class="stat"><b>27 UFs</b><span>base pública da Dívida Ativa da União coberta por inteiro</span></div>
-        <div class="stat"><b>8,9 milhões</b><span>de devedores organizados e pesquisáveis</span></div>
-        <div class="stat"><b>R$ 165,5 bi</b><span>em débitos inscritos há mais de 5 anos sem execução ajuizada — triagem por decurso de prazo, a confirmar caso a caso</span></div>
-      </div>
-    </section>
-
-    <section class="oque">
-      <h2>O que a plataforma entrega</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Diagnóstico executivo</h3>
-          <p>Radiografia do passivo do contribuinte a partir de fontes oficiais — situação, valores, ajuizamento e histórico — em um relatório claro, feito para a tomada de decisão.</p>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#inicio" aria-label="Parceriza — início"><img src="assets/parceriza-logo.png" alt="Parceriza" width="1774" height="887"></a>
+    <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+    <nav id="menu" aria-label="Navegação principal">
+      <a href="#advogados">Para advogados</a>
+      <a href="#solucoes">Soluções</a>
+      <a href="#parceiros">Parceiros</a>
+      <a href="#turma">Nossa turma</a>
+      <a class="button button-small button-navy" href="#participar" data-form="advogado">Faça parte <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="container">
+      <div class="hero-top">
+        <div>
+          <p class="eyebrow"><span class="status-dot"></span> Pessoas. Tecnologia. Parcerias.</p>
+          <h1 id="hero-title">Boas conexões.<br><span>Novas possibilidades.</span></h1>
+          <p class="hero-copy">Um lugar para aproximar a advocacia, as empresas e as soluções que ajudam a transformar o trabalho de todos os dias.</p>
+          <div class="actions">
+            <a class="button button-navy" href="#participar" data-form="advogado">Sou advogado <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#parceiros">Tenho uma solução <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="card">
-          <h3>Triagem por decurso de prazo</h3>
-          <p>A idade e a situação de cada inscrição na base pública apontam débitos que merecem verificação aprofundada. A triagem indica; a confirmação exige análise do processo, caso a caso.</p>
-        </div>
-        <div class="card">
-          <h3>Jornada de dados</h3>
-          <p>O contribuinte enriquece o próprio diagnóstico — trazendo documentos ou acionando consultas oficiais — com transparência de custo em cada passo.</p>
-        </div>
+        <aside class="iza-welcome" aria-label="Boas-vindas da Iza">
+          <div class="welcome-heading"><span class="portrait portrait-iza" aria-hidden="true"></span><div><strong>Oi, eu sou a Iza.</strong><span>Sua anfitriã na Parceriza</span></div><span class="spark" aria-hidden="true">✦</span></div>
+          <p>Você traz a necessidade.<br>Eu ajudo a encontrar o caminho.</p>
+          <a href="#encontre">Por onde vamos começar? <span aria-hidden="true">↓</span></a>
+        </aside>
       </div>
+      <figure class="hero-art">
+        <img src="assets/parceriza-turma.png" alt="Os dez personagens virtuais da Parceriza reunidos. Iza está ao centro. A turma inclui mulheres e homens de diferentes idades e aparências, e um integrante cadeirante." width="1774" height="887" fetchpriority="high">
+        <figcaption><span>Uma turma. Muitas perspectivas.</span><a href="#turma">Conheça essa ideia <span aria-hidden="true">↗</span></a></figcaption>
+      </figure>
+    </div>
+  </section>
 
-      <div class="aviso">
-        A Parceriza é uma plataforma de tecnologia e organização de dados. Não presta consultoria
-        jurídica, não promete resultados e não substitui a análise de um profissional habilitado.
+  <section class="path-section section" id="encontre" aria-labelledby="path-title">
+    <div class="container path-layout">
+      <div><p class="eyebrow">Comece pela sua necessidade</p><h2 id="path-title">O que podemos<br>aproximar hoje?</h2><p class="section-copy">Escolha seu momento. A Iza apresenta os caminhos disponíveis dentro do nosso ecossistema.</p></div>
+      <div class="path-content">
+        <div class="path-tabs" role="tablist" aria-label="Escolha seu objetivo">
+          <button id="path-tab-adv" type="button" role="tab" aria-selected="true" aria-controls="path-adv" tabindex="0">Minha atuação</button>
+          <button id="path-tab-emp" type="button" role="tab" aria-selected="false" aria-controls="path-emp" tabindex="-1">Minha empresa</button>
+          <button id="path-tab-par" type="button" role="tab" aria-selected="false" aria-controls="path-par" tabindex="-1">Minha solução</button>
+        </div>
+        <div id="path-adv" class="path-panel" role="tabpanel" aria-labelledby="path-tab-adv">
+          <span class="path-number" aria-hidden="true">01</span><h3>Mais conexões para a sua advocacia.</h3><p>Estamos formando uma rede de profissionais para colaboração e apresentação de serviços. Manifeste seu interesse com poucas informações; o perfil completo vem depois.</p><a class="text-link" href="#participar" data-form="advogado">Quero participar da rede <span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="path-emp" class="path-panel" role="tabpanel" aria-labelledby="path-tab-emp" hidden>
+          <span class="path-number" aria-hidden="true">02</span><h3>Clareza para a próxima decisão.</h3><p>Conheça o Tributar.IA, nossa primeira solução em destaque. Organize informações do passivo fiscal e identifique pontos que merecem análise profissional.</p><a class="text-link" href="https://tributaria.parceriza.com.br">Conhecer o Tributar.IA <span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="path-par" class="path-panel" role="tabpanel" aria-labelledby="path-tab-par" hidden>
+          <span class="path-number" aria-hidden="true">03</span><h3>Sua solução pode encontrar seu público.</h3><p>Legaltechs, plataformas e serviços de apoio: apresente o que você faz. Vamos avaliar a afinidade com o ecossistema e as possibilidades de divulgação.</p><a class="text-link" href="#participar" data-form="parceiro">Apresentar minha solução <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="small-note">A Iza é uma personagem virtual. Este guia apresenta caminhos de navegação.</p>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <div class="f-marca">Parceriza</div>
-    <p>Um ecossistema Preddita · novos módulos em desenvolvimento · © 2026 Preddita</p>
-  </footer>
-</div>
+  <section class="solutions-section section" id="solucoes" aria-labelledby="solutions-title">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Tecnologia que faz parte da conversa</p><h2 id="solutions-title">Conheça o Tributar.IA.</h2></div><p>O ecossistema começa com uma solução concreta e cresce com novas conexões.</p></div>
+      <article class="product-feature">
+        <div class="product-copy">
+          <span class="pill"><span class="status-dot"></span> Solução do ecossistema</span>
+          <div class="product-wordmark">Tributar<span>.IA</span></div>
+          <h3>Informação fiscal.<br>Contexto para decidir.</h3>
+          <p>Dados públicos da PGFN e informações do próprio contribuinte organizados para compreender o passivo e preparar uma análise mais clara.</p>
+          <a class="button button-teal" href="https://tributaria.parceriza.com.br">Acessar o Tributar.IA <span aria-hidden="true">↗</span></a>
+          <p class="product-note">Acesso e condições de uso na plataforma do produto.</p>
+        </div>
+        <div class="product-details">
+          <div class="detail-row"><span>01</span><div><h4>Organize o passivo</h4><p>Situação das inscrições e informações relevantes reunidas para leitura.</p></div></div>
+          <div class="detail-row"><span>02</span><div><h4>Encontre pontos de atenção</h4><p>A triagem ajuda a identificar o que pede investigação e documentos.</p></div></div>
+          <div class="detail-row"><span>03</span><div><h4>Prepare a análise profissional</h4><p>Mais contexto para o trabalho do advogado e para as decisões da empresa.</p></div></div>
+          <div class="product-footnote">As hipóteses apontadas dependem de confirmação documental e análise individual por profissional habilitado.</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="lawyers-section section" id="advogados" aria-labelledby="lawyers-title">
+    <div class="container lawyers-layout">
+      <div class="lawyers-intro">
+        <p class="eyebrow">Para quem exerce a advocacia</p>
+        <h2 id="lawyers-title">Sua experiência merece<br>novas conexões.</h2>
+        <p class="section-copy">Autônomo, integrante de escritório, começando ou ampliando sua atuação: estamos construindo uma rede que acolhe diferentes trajetórias.</p>
+        <a class="text-link" href="#participar" data-form="advogado">Quero fazer parte <span aria-hidden="true">↗</span></a>
+        <div class="avatar-stack" aria-hidden="true"><span class="portrait portrait-jovem"></span><span class="portrait portrait-senhora"></span><span class="portrait portrait-cadeirante"></span><span class="portrait portrait-senior"></span></div>
+        <p class="small-note">Diferentes perspectivas. O mesmo espaço para participar.</p>
+      </div>
+      <ol class="steps">
+        <li><span class="step-number">01</span><div><h3>Comece com o essencial</h3><p>Nome, e-mail e inscrição na OAB. Uma solicitação curta para apresentar seu interesse.</p></div></li>
+        <li><span class="step-number">02</span><div><h3>Construa seu perfil aos poucos</h3><p>Áreas de atuação, localização e serviços entram na próxima conversa, conforme seu interesse.</p></div></li>
+        <li><span class="step-number">03</span><div><h3>Prepare suas próximas parcerias</h3><p>A equipe entra em contato para alinhar a participação. A rede e o catálogo de profissionais estão em formação.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="partners-section section" id="parceiros" aria-labelledby="partners-title">
+    <div class="container partners-layout">
+      <div><p class="eyebrow">Torne-se parceiro da Parceriza</p><h2 id="partners-title">Sua solução.<br>Uma nova conexão.</h2><p class="section-copy">Aproximamos quem desenvolve boas soluções de quem precisa delas. Queremos conhecer plataformas e serviços que contribuam para a rotina jurídica e empresarial.</p><a class="button button-navy" href="#participar" data-form="parceiro">Apresentar minha solução <span aria-hidden="true">↗</span></a></div>
+      <div class="partner-areas">
+        <p class="eyebrow">Áreas que queremos aproximar</p>
+        <ul><li><span>Assinatura e gestão de documentos</span><span aria-hidden="true">↗</span></li><li><span>Legaltechs e gestão de escritórios</span><span aria-hidden="true">↗</span></li><li><span>Mediação e serviços especializados</span><span aria-hidden="true">↗</span></li><li><span>Educação e conhecimento aplicado</span><span aria-hidden="true">↗</span></li></ul>
+        <p class="small-note">O espaço de parceiros está em formação. Cada proposta será avaliada antes de qualquer anúncio ou indicação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cast-section section" id="turma" aria-labelledby="cast-title">
+    <div class="container cast-layout">
+      <div class="cast-portrait" role="img" aria-label="Iza, personagem virtual da Parceriza, de óculos, blazer azul-petróleo e blusa turquesa"><img src="assets/parceriza-turma.png" alt="" width="1774" height="887" loading="lazy"></div>
+      <div class="cast-copy"><p class="eyebrow">Conheça a nossa turma</p><h2 id="cast-title">Gente diferente.<br>Conversa que aproxima.</h2><p>A Iza recebe você. Ao lado dela, nove personagens trazem outras perspectivas para explicar temas, apresentar soluções e tornar cada conversa mais simples.</p><p>Tributos, contratos, gestão, patrimônio, conhecimento e parcerias se encontram aqui. Porque uma boa pergunta nem sempre cabe em uma única área.</p><div class="cast-signature"><span class="signature-line"></span><span><strong>Iza e a turma Parceriza</strong><br>Personagens virtuais da nossa marca</span></div><p class="small-note">A turma apresenta caminhos. A análise de cada caso e a prestação dos serviços cabem aos profissionais responsáveis.</p></div>
+    </div>
+  </section>
+
+  <section class="join-section section" id="participar" aria-labelledby="join-title">
+    <div class="container join-layout">
+      <div class="join-intro"><p class="eyebrow">Vamos começar?</p><h2 id="join-title">O primeiro passo<br>é se apresentar.</h2><p>Estamos formando as primeiras conexões da Parceriza. Conte o essencial e vamos conversar sobre a sua participação.</p><div class="join-note"><span aria-hidden="true">↗</span><p><strong>Uma entrada simples e transparente.</strong><br>A solicitação é enviada pelo seu aplicativo de e-mail. A equipe avalia e retorna para os próximos passos.</p></div></div>
+      <div class="form-card">
+        <div class="form-tabs" role="tablist" aria-label="Tipo de participação">
+          <button id="form-tab-advogado" type="button" role="tab" aria-selected="true" aria-controls="form-advogado" tabindex="0">Sou advogado</button>
+          <button id="form-tab-parceiro" type="button" role="tab" aria-selected="false" aria-controls="form-parceiro" tabindex="-1">Tenho uma solução</button>
+        </div>
+        <div id="form-advogado" role="tabpanel" aria-labelledby="form-tab-advogado">
+          <h3>Participe da construção da rede.</h3>
+          <p class="form-description">Só o essencial agora. Seu perfil poderá ser enriquecido depois.</p>
+          <form id="lawyer-form" data-kind="advogado" action="mailto:gustavo.pacher@preddita.com" method="post" enctype="text/plain">
+            <label for="lawyer-name">Seu nome<input id="lawyer-name" name="nome" autocomplete="name" required maxlength="100" placeholder="Como podemos chamar você?"></label>
+            <label for="lawyer-email">E-mail profissional<input id="lawyer-email" name="email" type="email" autocomplete="email" required maxlength="160" placeholder="voce@exemplo.com.br"></label>
+            <div class="form-row"><label for="lawyer-uf">UF da OAB<select id="lawyer-uf" name="uf" required><option value="">Selecione</option><option>AC</option><option>AL</option><option>AP</option><option>AM</option><option>BA</option><option>CE</option><option>DF</option><option>ES</option><option>GO</option><option>MA</option><option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option><option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option><option>RS</option><option>RO</option><option>RR</option><option>SC</option><option>SP</option><option>SE</option><option>TO</option></select></label><label for="lawyer-oab">Número da OAB<input id="lawyer-oab" name="oab" required maxlength="20" placeholder="Ex.: 12345" autocomplete="off"></label></div>
+            <label class="checkbox-label"><input type="checkbox" required name="ciencia"><span>Li <a href="#privacidade">como meus dados serão usados</a> para avaliar esta solicitação e entrar em contato.</span></label>
+            <button class="button button-navy submit-button" type="submit">Preparar minha solicitação <span aria-hidden="true">↗</span></button>
+            <p class="form-hint">Você revisará e enviará pelo seu e-mail. Isso ainda não cria uma conta nem um perfil público.</p>
+          </form>
+        </div>
+        <div id="form-parceiro" role="tabpanel" aria-labelledby="form-tab-parceiro" hidden>
+          <h3>Apresente sua solução.</h3><p class="form-description">Vamos conhecer o que você oferece e o público que atende.</p>
+          <form id="partner-form" data-kind="parceiro" action="mailto:gustavo.pacher@preddita.com" method="post" enctype="text/plain">
+            <label for="partner-name">Nome da solução ou empresa<input id="partner-name" name="empresa" autocomplete="organization" required maxlength="120" placeholder="Sua empresa ou plataforma"></label>
+            <label for="partner-email">E-mail para contato<input id="partner-email" name="email" type="email" autocomplete="email" required maxlength="160" placeholder="contato@empresa.com.br"></label>
+            <label for="partner-url">Site <span class="optional">(opcional)</span><input id="partner-url" name="site" type="url" autocomplete="url" maxlength="300" placeholder="https://"></label>
+            <label for="partner-description">O que sua solução faz?<textarea id="partner-description" name="descricao" required maxlength="1200" rows="3" placeholder="Conte em poucas linhas o que oferece e para quem."></textarea></label>
+            <label class="checkbox-label"><input type="checkbox" required name="ciencia"><span>Li <a href="#privacidade">como meus dados serão usados</a> para avaliar a proposta e entrar em contato.</span></label>
+            <button class="button button-navy submit-button" type="submit">Preparar minha proposta <span aria-hidden="true">↗</span></button>
+            <p class="form-hint">Você revisará e enviará pelo seu e-mail. A proposta não implica anúncio ou parceria já aprovados.</p>
+          </form>
+        </div>
+        <div id="request-result" class="request-result" role="status" hidden>
+          <strong>Sua mensagem está preparada.</strong><p>Abra seu aplicativo de e-mail, revise e confirme o envio. A solicitação só será recebida depois que você enviar.</p>
+          <a id="email-request" class="button button-navy" href="mailto:gustavo.pacher@preddita.com">Abrir e-mail para enviar <span aria-hidden="true">↗</span></a>
+          <details><summary>Prefere copiar e enviar manualmente?</summary><p>Destinatário: <a href="mailto:gustavo.pacher@preddita.com">gustavo.pacher@preddita.com</a></p><textarea id="request-text" readonly rows="8" aria-label="Mensagem preparada"></textarea><button id="copy-request" class="text-button" type="button">Copiar mensagem</button><span id="copy-status" aria-live="polite"></span></details>
+        </div>
+        <noscript><p class="noscript-note">Para solicitar participação, escreva para <a href="mailto:gustavo.pacher@preddita.com">gustavo.pacher@preddita.com</a> com seu nome, e-mail e OAB ou com a apresentação de sua solução.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section section" aria-labelledby="faq-title">
+    <div class="container faq-layout">
+      <div><p class="eyebrow">Antes de começar</p><h2 id="faq-title">Algumas boas<br>perguntas.</h2></div>
+      <div class="faq-list">
+        <details><summary>A Parceriza é um escritório de advocacia?</summary><p>Não. A Parceriza é um ecossistema de tecnologia, informação e conexões. Os serviços jurídicos são de responsabilidade dos profissionais habilitados que os prestam, com autonomia e contratação própria.</p></details>
+        <details><summary>Como funciona a participação dos advogados?</summary><p>Nesta etapa, recebemos manifestações de interesse por e-mail. A equipe retorna para conhecer a atuação do profissional e alinhar os próximos passos. O envio não gera publicação automática de perfil nem garante demandas ou resultados.</p></details>
+        <details><summary>Já posso usar alguma solução?</summary><p>Sim. O <a href="https://tributaria.parceriza.com.br">Tributar.IA</a> é a solução em destaque. As funcionalidades, o acesso e as condições estão na própria plataforma. O catálogo de terceiros e a rede de profissionais estão em formação.</p></details>
+        <details><summary>Como minha plataforma pode aparecer aqui?</summary><p>Use a opção “Tenho uma solução” para apresentar sua empresa. Avaliaremos a adequação ao público, a disponibilidade do serviço e as condições de divulgação. Eventuais anúncios terão sua natureza comercial identificada.</p></details>
+        <details id="privacidade"><summary>Como meus dados são usados?</summary><p>Os campos desta página são preenchidos no seu navegador. Não enviamos esses dados automaticamente nem os armazenamos em cookies ou no armazenamento local. O botão prepara uma mensagem; o envio acontece somente quando você o confirma no seu aplicativo de e-mail.</p><p>A equipe da Parceriza usará o conteúdo recebido para avaliar sua solicitação e responder. Não envie documentos de clientes, senhas ou informações sigilosas neste contato inicial. Para pedir esclarecimentos ou exclusão da solicitação, escreva para <a href="mailto:gustavo.pacher@preddita.com">gustavo.pacher@preddita.com</a>. O provedor de hospedagem, o serviço de fontes e seu provedor de e-mail podem tratar dados técnicos necessários às suas operações.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-main"><div><a class="brand footer-brand" href="#inicio" aria-label="Parceriza — início"><img src="assets/parceriza-logo.png" alt="Parceriza" width="1774" height="887" loading="lazy"></a><p>Boas conexões começam com uma boa conversa.</p></div><div class="footer-links"><a href="#participar" data-form="advogado">Faça parte da rede</a><a href="#participar" data-form="parceiro">Torne-se parceiro</a><a href="https://tributaria.parceriza.com.br">Tributar.IA ↗</a></div></div>
+    <div class="footer-bottom"><p>© 2026 Parceriza · Um ecossistema Preddita</p><a href="#privacidade">Dados e privacidade</a><a href="#inicio">Voltar ao topo ↑</a></div>
+  </div>
+</footer>
 </body>
 </html>
