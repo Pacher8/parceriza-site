@@ -123,9 +123,9 @@ if (orbita) {
   const painel = $(".persona");
   const mostra = (b) => {
     $$(".orbit-item button", orbita).forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-    $(".kicker", painel).textContent = b.dataset.tema;
-    $("h3", painel).textContent = b.dataset.titulo;
-    $("p", painel).textContent = b.dataset.texto;
+    $(".persona-tema", painel).textContent = b.dataset.tema;
+    $(".persona-titulo", painel).textContent = b.dataset.titulo;
+    $(".persona-texto", painel).textContent = b.dataset.texto;
   };
   $$(".orbit-item button", orbita).forEach((b) => { b.addEventListener("click", () => mostra(b)); b.addEventListener("mouseenter", () => mostra(b)); b.addEventListener("focus", () => mostra(b)); });
 }
