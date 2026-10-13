@@ -1,0 +1,95 @@
+{
+  "source": "https://www.oab.org.br/institucionalconselhofederal/quadroadvogados",
+  "retrieved_at": "2026-10-12",
+  "metric": "Advogado(a), quadro de regulares e recadastrados",
+  "total": 1511938,
+  "method": "Soma da coluna Advogado(a) por UF. Exclui inscrições suplementares, estagiários e consultores estrangeiros. A regionalização é uma agregação feita pela Parceriza; não mede usuários da plataforma.",
+  "states": {
+    "AC": 4252,
+    "AL": 16456,
+    "AM": 17251,
+    "AP": 4413,
+    "BA": 66265,
+    "CE": 42925,
+    "DF": 54568,
+    "ES": 28833,
+    "GO": 57738,
+    "MA": 26529,
+    "MG": 151774,
+    "MS": 20024,
+    "MT": 27533,
+    "PA": 30844,
+    "PB": 23373,
+    "PE": 47159,
+    "PI": 19463,
+    "PR": 97123,
+    "RJ": 164052,
+    "RN": 17688,
+    "RO": 11919,
+    "RR": 3119,
+    "RS": 102149,
+    "SC": 55364,
+    "SE": 14024,
+    "SP": 396644,
+    "TO": 10456
+  },
+  "regions": [
+    {
+      "name": "Norte",
+      "total": 82254,
+      "states": [
+        "AC",
+        "AP",
+        "AM",
+        "PA",
+        "RO",
+        "RR",
+        "TO"
+      ]
+    },
+    {
+      "name": "Nordeste",
+      "total": 273882,
+      "states": [
+        "AL",
+        "BA",
+        "CE",
+        "MA",
+        "PB",
+        "PE",
+        "PI",
+        "RN",
+        "SE"
+      ]
+    },
+    {
+      "name": "Centro-Oeste",
+      "total": 159863,
+      "states": [
+        "DF",
+        "GO",
+        "MT",
+        "MS"
+      ]
+    },
+    {
+      "name": "Sudeste",
+      "total": 741303,
+      "states": [
+        "ES",
+        "MG",
+        "RJ",
+        "SP"
+      ]
+    },
+    {
+      "name": "Sul",
+      "total": 254636,
+      "states": [
+        "PR",
+        "RS",
+        "SC"
+      ]
+    }
+  ]
+}

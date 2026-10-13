@@ -1,0 +1,351 @@
+{
+  "updated_at": "2026-10-12",
+  "categories": {
+    "operacao": "Rotina e retaguarda",
+    "documentos": "Documentos e contratos",
+    "dados": "Dados e tribunais",
+    "ia": "Inteligência artificial",
+    "especialistas": "Serviços especializados",
+    "seguranca": "Segurança e confiança",
+    "marketing": "Marketing e comunicação"
+  },
+  "statuses": {
+    "available": "Disponível",
+    "seeking": "Buscamos parceiros"
+  },
+  "solutions": [
+    {
+      "id": "tributaria",
+      "name": "Tributar.IA",
+      "category": "dados",
+      "description": "Organização do passivo fiscal e triagem de pontos que merecem análise profissional.",
+      "tags": "PGFN RFB tributário dívida ativa",
+      "status": "available",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "legal-design",
+      "name": "Legal design e visual law",
+      "category": "documentos",
+      "description": "Documentos mais claros, linguagem simples, apresentações de teses e jornadas que o cliente entende.",
+      "tags": "design jurídico acessibilidade comunicação contratos",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "precatorios",
+      "name": "Precatórios e direitos creditórios",
+      "category": "especialistas",
+      "description": "Apoio à análise documental, cálculos, acompanhamento e avaliação de alternativas de cessão.",
+      "tags": "RPV créditos judiciais honorários",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "cofre",
+      "name": "Cofre de certificados digitais",
+      "category": "seguranca",
+      "description": "Gestão de credenciais e certificados, permissões, autenticação forte e histórico de uso.",
+      "tags": "A1 A3 certificado nuvem identidade digital",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "publicacoes",
+      "name": "Publicações e controle de prazos",
+      "category": "operacao",
+      "description": "Monitoramento do DJEN, tratamento de intimações e organização da agenda com conferência profissional.",
+      "tags": "diário justiça publicações intimações prazos controladoria",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "tribunais",
+      "name": "Integração com tribunais",
+      "category": "dados",
+      "description": "Conexões com PJe, eproc, Jus.br e outros sistemas, conforme cobertura e acesso autorizado.",
+      "tags": "API interoperabilidade peticionamento processo eletrônico",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "jurimetria",
+      "name": "Jurimetria e inteligência jurídica",
+      "category": "dados",
+      "description": "Análises de duração, decisões e padrões processuais, com recorte, fonte e limites transparentes.",
+      "tags": "analytics estatística BI jurisprudência dados DataJud",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "ia-pesquisa",
+      "name": "Pesquisa jurídica com IA",
+      "category": "ia",
+      "description": "Busca assistida de legislação e precedentes com fontes verificáveis para revisão do advogado.",
+      "tags": "jurisprudência busca semântica IA inteligência artificial",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "ia-documentos",
+      "name": "Leitura de autos e documentos",
+      "category": "ia",
+      "description": "Extração de informações, resumos e cronologias com indicação de onde cada dado foi encontrado.",
+      "tags": "OCR resumo autos documentos inteligência artificial",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "ia-contratos",
+      "name": "Revisão contratual com IA",
+      "category": "ia",
+      "description": "Comparação de versões e identificação de cláusulas e pontos de atenção com critérios do escritório.",
+      "tags": "contratos revisão playbook inteligência artificial",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "gestao",
+      "name": "Gestão de escritórios e controladoria",
+      "category": "operacao",
+      "description": "Processos, tarefas, responsáveis, agenda, indicadores e organização da rotina em um só fluxo.",
+      "tags": "ERP software jurídico gestão processual",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "financeiro",
+      "name": "Financeiro e apoio administrativo",
+      "category": "operacao",
+      "description": "Cobrança, fluxo de caixa, conciliação e apoio contábil para acompanhar a saúde do escritório.",
+      "tags": "BPO financeiro backoffice retaguarda contabilidade",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "atendimento",
+      "name": "Atendimento e relacionamento",
+      "category": "operacao",
+      "description": "Agenda, recepção, organização de solicitações e acompanhamento do relacionamento com clientes.",
+      "tags": "CRM secretaria virtual atendimento agenda",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "assinaturas",
+      "name": "Assinatura eletrônica e digital",
+      "category": "documentos",
+      "description": "Fluxos de assinatura e trilhas de evidência adequados ao documento e às partes envolvidas.",
+      "tags": "ICP-Brasil documentos assinatura digital eletrônica",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "clm",
+      "name": "Gestão do ciclo de contratos",
+      "category": "documentos",
+      "description": "Modelos, aprovações, obrigações e vencimentos acompanhados do início à renovação.",
+      "tags": "CLM automação documental gestão contratos",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "provas",
+      "name": "Provas digitais e perícia",
+      "category": "seguranca",
+      "description": "Coleta e preservação de evidências, documentação técnica e apoio pericial para análise do caso.",
+      "tags": "WhatsApp internet prova digital cadeia custódia",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "privacidade",
+      "name": "Proteção de dados e cibersegurança",
+      "category": "seguranca",
+      "description": "Apoio em privacidade, permissões de acesso, backup, continuidade e resposta a incidentes.",
+      "tags": "LGPD segurança informação DPO backup",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "dataroom",
+      "name": "Documentos e salas de diligência",
+      "category": "documentos",
+      "description": "Organização de acervos e compartilhamento controlado em auditorias, operações e projetos.",
+      "tags": "GED data room due diligence documentos",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "calculos",
+      "name": "Cálculos judiciais e perícias",
+      "category": "especialistas",
+      "description": "Profissionais e ferramentas para cálculos cíveis, trabalhistas, previdenciários e tributários.",
+      "tags": "liquidação cálculo perito contábil",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "correspondencia",
+      "name": "Diligências e apoio local",
+      "category": "especialistas",
+      "description": "Conexões com profissionais para diligências, audiências e necessidades presenciais em outras cidades.",
+      "tags": "correspondente jurídico audiência advogado local",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "mediacao",
+      "name": "Plataformas de mediação e negociação",
+      "category": "especialistas",
+      "description": "Plataformas, câmaras e mediadores para organizar sessões online, propostas e acordos, com confidencialidade e participação das partes.",
+      "tags": "mediação online plataforma digital conciliação negociação ADR ODR acordos conflitos câmara mediador",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "patrimonio",
+      "name": "Patrimônio e negócios",
+      "category": "especialistas",
+      "description": "Apoio técnico em valuation, organização societária, imóveis e diligência documental.",
+      "tags": "avaliação empresas M&A imobiliário societário",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "traducao",
+      "name": "Tradução e atuação internacional",
+      "category": "especialistas",
+      "description": "Tradução jurídica, serviços juramentados e colaboração especializada em demandas transnacionais.",
+      "tags": "idiomas tradução juramentada internacional",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "educacao",
+      "name": "Educação e desenvolvimento",
+      "category": "operacao",
+      "description": "Atualização aplicada, formação em gestão e capacitação para usar novas tecnologias com critério.",
+      "tags": "cursos mentoria treinamento conhecimento",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "ia-conhecimento",
+      "name": "Conhecimento do escritório com IA",
+      "category": "ia",
+      "description": "Pesquisa assistida no acervo autorizado, com controle de acesso e referência aos documentos.",
+      "tags": "RAG base conhecimento inteligência artificial",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "ia-fluxos",
+      "name": "Agentes de IA e automação de rotinas",
+      "category": "ia",
+      "description": "Agentes para triagem, agenda, tarefas e consulta ao acervo autorizado, com limites de atuação e supervisão humana.",
+      "tags": "agentes IA inteligência artificial automação workflow assistentes implementação integração CRM WhatsApp",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "ia-audio",
+      "name": "Transcrição e acessibilidade",
+      "category": "ia",
+      "description": "Transcrição autorizada de reuniões, resumos e adaptação de conteúdos para diferentes públicos.",
+      "tags": "áudio reunião acessibilidade inteligência artificial",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "reforma",
+      "name": "Reforma tributária e gestão fiscal",
+      "category": "especialistas",
+      "description": "Aproximação de soluções para simulação, revisão contratual e planejamento de caixa na transição.",
+      "tags": "IBS CBS split payment reforma tributária",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "monitoramento",
+      "name": "Monitoramento regulatório",
+      "category": "dados",
+      "description": "Acompanhamento de mudanças normativas e temas relevantes para cada setor e área de atuação.",
+      "tags": "legislação alertas regulatório normas",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp e atendimento integrado",
+      "category": "operacao",
+      "description": "Recepção, triagem, agendamento e acompanhamento pelo WhatsApp, com integração ao CRM e transferência para atendimento humano.",
+      "tags": "WhatsApp Business API oficial atendimento multicanal omnichannel agentes IA chatbot automação agenda relacionamento",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "seguro-garantia",
+      "name": "Seguro garantia judicial",
+      "category": "especialistas",
+      "description": "Aproximação com corretoras e seguradoras para análise e cotação de garantias judiciais, conforme o caso e os requisitos aplicáveis.",
+      "tags": "seguro garantia judicial execução fiscal trabalhista cível apólice corretora seguradora SUSEP garantias",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "seguro-rc",
+      "name": "Seguro de responsabilidade civil",
+      "category": "especialistas",
+      "description": "Avaliação de seguros de RC, inclusive profissional, conforme a atividade e as necessidades do caso, com análise de coberturas e exclusões.",
+      "tags": "seguro responsabilidade civil profissional advogado escritório RC E&O erros omissões corretora seguradora apólice cobertura riscos causas",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "marketing-marca",
+      "name": "Posicionamento e identidade de marca",
+      "category": "marketing",
+      "description": "Estratégia de comunicação, identidade visual e materiais que expressem a atuação e a personalidade do escritório.",
+      "tags": "marketing jurídico mkt branding design gráfico designers agência marca posicionamento",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "marketing-conteudo",
+      "name": "Conteúdo e redes sociais",
+      "category": "marketing",
+      "description": "Planejamento editorial, redação, design e gestão de redes para comunicar conhecimento com clareza e responsabilidade.",
+      "tags": "marketing jurídico mkt copywriter copywriting redator social media Instagram LinkedIn conteúdo agência",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "marketing-sites",
+      "name": "Sites, páginas e presença em buscas",
+      "category": "marketing",
+      "description": "Sites profissionais, páginas de apresentação e organização de conteúdo para facilitar a descoberta e o contato com o escritório.",
+      "tags": "marketing jurídico mkt site landing page SEO Google desenvolvedor web agência",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "marketing-audiovisual",
+      "name": "Vídeo, fotografia e produção audiovisual",
+      "category": "marketing",
+      "description": "Roteiros, gravação e edição de vídeos, retratos profissionais e produção de conteúdos educativos e institucionais.",
+      "tags": "marketing jurídico mkt audiovisual videomaker fotógrafo fotografia reels podcast YouTube produtora",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    },
+    {
+      "id": "marketing-midia",
+      "name": "Mídia e análise de comunicação",
+      "category": "marketing",
+      "description": "Planejamento de mídia e mensuração para campanhas informativas, com adequação às regras da publicidade jurídica.",
+      "tags": "marketing jurídico mkt mídia paga tráfego anúncios campanhas métricas analytics agência gestor de tráfego",
+      "status": "seeking",
+      "last_reviewed": "2026-10-12"
+    }
+  ]
+}

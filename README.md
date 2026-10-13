@@ -3,6 +3,13 @@
 Site estático publicado por GitHub Pages em https://parceriza.com.br/.
 Preservar `CNAME` e `.nojekyll`.
 
+## Versão 3 (12/10/2026) — linha do reel e da grade @parceriza
+- `index.html`: página geral narrada como o reel v6 (1.511.938 trajetórias → sozinhos → atendimento → frente e retaguarda → meio do caminho → IA → estrutura cara → perfis → Iza e a turma → catálogo → Tributar.IA → participar).
+- `plataforma.html`: apresentação da plataforma — história em 4 atos, infográfico ponta a ponta (10 etapas, linha desenhada pelo scroll, status honesto de cada etapa), camadas, diário de construção e regras do jogo.
+- `assets/video/`: reel v6 (720p) e pôster. `assets/turma/`: orbes da turma (recortes dos PNGs individuais). `assets/logo-pontos.json`: 2.200 pontos do símbolo, usados no canvas do hero.
+- `content/solutions.json` e `content/oab-2026-10-12.json`: catálogo de frentes e base CFOAB.
+- Ao entregar funcionalidade nova, atualizar os status em `plataforma.html` (estações e "Diário de construção").
+
 ## Estrutura
 - `index.html`: página institucional, soluções, parceiros, turma, solicitações e privacidade.
 - `styles.css`: paleta azul-petróleo/turquesa, responsividade e acessibilidade.
